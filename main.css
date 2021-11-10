@@ -1,0 +1,294 @@
+.top {
+    background-image: url(imgs/bg.png);
+    background-size: cover;
+    height: 50rem;
+    width: 100%;
+}
+
+nav h2{
+    margin-top: 30px;
+}
+
+nav {
+    display: flex;
+    margin-left: 60px;
+}
+
+ul {
+    margin-top: 35px;
+    margin-left: 450px;
+}
+
+li {
+    margin-left: 60px;
+    list-style-type: none;
+    display: inline;
+    padding: 10px;
+}
+
+nav li a {
+    font-weight: 600;
+    text-decoration: none;
+    color: #111;
+}
+
+.request a {
+    color: #fff;
+}
+
+.request {
+    padding: 1.5rem 3rem 1.5rem 3rem;
+    background-color: blue;
+    border-radius: 0.5rem;
+}
+
+.blue {
+    color: blue;
+}
+
+.center {
+    text-align: center;
+    color: #fff;
+    line-height: 30px;
+}
+
+.center>h2 {
+    font-size: 50px;
+    line-height: 60px;
+    margin-top: 20px;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.center>p {
+    margin-top: 80px;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+}
+
+.but1 {
+    padding: 22px;
+    color: #fff;
+    background-color: blue;
+    width: 12%;
+    margin-left: 450px;
+    text-align: center;
+    margin-top: 220px;
+}
+
+.but2 {
+    padding: 20px;
+    color: #fff;
+    width: 12%;
+    margin-top: -62px;
+    margin-left: 750px;
+    text-align: center;
+    border: 1px solid #fff;
+}
+
+.abt {
+    height: 28rem;
+    background-color: #fff;
+}
+
+.abt>h2 {
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.abt>p {
+    margin-left: 10%;
+    margin-top: 2%;
+    line-height: 30px;
+    font-size: 1rem;
+}
+
+.gt-started {
+    padding: 20px;
+    background-color: blue;
+    width: 12%;
+    margin-left: 150px;
+    margin-top: 5%;
+    text-align: center;
+
+}
+
+.gt-started>a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.abt>.img {
+    margin-left: 900px;
+    margin-top: -450px;
+    margin-bottom: 0px;
+    float: left;
+}
+
+.info {
+    background-image: url(imgs/Rectangle\ 11.png);
+    background-size: cover;
+    height: 40rem;
+    text-align: center;
+    color: #fff;
+}
+
+.info>h2 {
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+.info>h1 {
+    font-size: 3.3rem;
+}
+
+.inf-bt {
+    padding: 20px;
+    background-color: blue;
+    width: 12%;
+    margin-top: 5%;
+    margin-left: 650px;
+    text-align: center;
+
+}
+
+.inf-bt>a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.our {
+    font-weight: bolder;
+    font-size: 2.5rem;
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.service {
+    display: flex;
+    height: 40rem;
+}
+
+
+.service,
+h4,
+p {
+    padding-left: 20px;
+}
+
+.sub-service {
+    display: flex;
+    margin-top: 4%;
+    text-align: left;
+    width: 90%;
+
+
+}
+
+.service1 {
+    height: 70%;
+    width: 30%;
+    margin-left: 5%;
+    background-color: #fff;
+    padding-bottom: 50px;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.service2 {
+    height: 70%;
+    width: 30%;
+    margin-left: 5%;
+    background-color: #fff;
+    padding-bottom: 50px;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.service3 {
+    height: 70%;
+    width: 30%;
+    margin-left: 5%;
+    background-color: #fff;
+    padding-bottom: 50px;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.contact {
+    display: flex;
+    background: blue;
+    height: 40rem;
+    color: #fff;
+}
+
+.txt {
+    margin-left: 200px;
+    padding-top: 100px;
+}
+
+.contact h4 {
+    font: bolder;
+}
+
+.touch {
+    color: #111;
+    float: right;
+    padding-left: 20px;
+    margin-top: 60px;
+    margin-left: 25%;
+    background-color: #fff;
+    width: 550px;
+    height: 540px;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 500px;
+    margin: 12px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    resize: vertical;
+
+}
+
+input[type=text] {
+    padding: 10px 10px;
+}
+
+input[type=Send-Message] {
+    background-color: blue;
+    color: #fff;
+    padding: 12px 20px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    margin-left: 150px;
+}
+
+input[type=Send-Message]:hover {
+    background-color: navy;
+}
+
+.form {
+    padding: 20px;
+}
+
+.touch>h3 {
+    padding-left: 30px;
+}
+
+.footer {
+    background-color: #111;
+    color: rgb(146, 169, 214);
+    text-align: center;
+    padding: 40px;
+
+}

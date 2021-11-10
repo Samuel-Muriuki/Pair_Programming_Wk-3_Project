@@ -25,7 +25,7 @@
 
 ### How to view the webpage.
 ****
-Click on the link bellow to view the street food site.
+Click on the link bellow to view the servicing website.
 https://samuel-muriuki.github.io/Pair_Programming_Wk-3_Project/
 ****
 [Go Back to the top](#servicing-website)
